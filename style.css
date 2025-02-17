@@ -1,0 +1,96 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(172, 172, 172);
+    height: 100%;
+    font-family: Arial, sans-serif;
+    
+   
+    
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+/* Menu de navegação */
+
+
+/* Formulário */
+.forma {
+    max-width: 500px;
+    margin: 20px auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px #3554dc;
+}
+
+.forma label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.forma input,
+.forma select,
+.forma button {
+    width: 99%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #f0ecec;
+    border-radius: 5px;
+}
+
+.forma button {
+    background-color: #202020;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.forma button:hover {
+    background-color: #3554dc ;
+    color:rgb(253, 252, 252);
+}
+
+/* Tabela */
+
+/* Links de ação */
+table a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+table a[href*="editar"] {
+    background-color: #28a745;
+}
+
+table a[href*="editar"]:hover {
+    background-color: #1e7e34;
+}
+
+table a[href*="deletar"] {
+    background-color: #dc3545;
+}
+
+table a[href*="deletar"]:hover {
+    background-color: #b21f2d;
+}
+table a[href*="gerar_pdf"] {
+    background-color: #3554dc;
+}
+
+table a[href*="gerar_pdf"]:hover {
+    background-color: #3554dc;
+}
+  
